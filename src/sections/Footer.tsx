@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Info, Shield, Share2, Heart, Github, Twitter, Linkedin } from 'lucide-react';
+import { Info, Shield, Share2, Heart, Github } from 'lucide-react';
 import { useState } from 'react';
 import {
   Dialog,
@@ -63,25 +63,12 @@ export function Footer() {
             </p>
             <div className="flex items-center gap-4">
               <a
-                href="#"
-                onClick={(e) => e.preventDefault()}
+                href="https://github.com/switch-creative-saas/EcoTracker.git"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-emerald-200/50 hover:text-white transition-colors"
               >
                 <Github className="w-5 h-5" />
-              </a>
-              <a
-                href="#"
-                onClick={(e) => e.preventDefault()}
-                className="text-emerald-200/50 hover:text-white transition-colors"
-              >
-                <Twitter className="w-5 h-5" />
-              </a>
-              <a
-                href="#"
-                onClick={(e) => e.preventDefault()}
-                className="text-emerald-200/50 hover:text-white transition-colors"
-              >
-                <Linkedin className="w-5 h-5" />
               </a>
             </div>
           </div>
